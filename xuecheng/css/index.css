@@ -1,0 +1,370 @@
+/* index首页样式文件 */
+
+/* 设置页面的文字公共颜色样式 */
+.col_bl {
+    color: #00a4ff !important;
+}
+
+
+
+/* 设置页面版心 */
+.w {
+    width: 1200px;
+    margin: auto;
+}
+body {
+    background: #f3f5f7;
+}
+
+/* 头部样式开始 */
+.header {
+    height: 70px;
+    padding-top: 30px;
+    /* background:pink; */
+}
+
+.header .logo {
+    /* width: 200px;
+    height: 50px; */
+    /* background: blue; */
+    /* height: 100px; */
+}
+.header .logo a {
+    display: block;
+    width: 200px;
+    height: 41px;
+    background: url('../images/logo.png') no-repeat;
+    /* font-size: 0; */
+    text-indent: -9999em;
+}
+
+
+.header .header_nav {
+    /* width: 300px;
+    height: 50px;
+    background: yellow; */
+    margin-left: 70px;
+}
+
+.header .header_nav li {
+    float: left;
+    padding: 12px 10px;
+    /* border: 1px solid red; */
+    font-size: 18px;
+    margin-right: 26px;
+}
+.header .header_nav li:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+
+
+.header .search {
+    width: 410px;
+    height: 40px; 
+    /* background: orange;  */
+    border: 1px solid #00a4ff;
+    border-right: none;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+.search input[type="text"] {
+    width: 360px;
+    height: 40px;
+    text-indent: 18px;
+}
+
+
+
+
+.header .userInfo {
+    /* width: 100px;
+    height: 50px;
+    background: purple; */
+}
+.userInfo a img {
+    border-radius: 50%;
+    /* 设置图片的垂直对齐方式 */
+    vertical-align: middle;
+}
+.userInfo a {
+    font-size: 12px;
+    color: #666;
+}
+/* 头部样式结束 */
+
+/* main样式部分开始 */
+.main {
+    background: #1c036c;
+}
+
+.main .main_body {
+    background: url('../images/banner2.png') no-repeat;
+    /* height: 400px; */
+}
+.main .main_nav {
+    width: 190px;
+    background: rgba(0,0,0,.3);
+    /* padding: 0 20px; */
+    padding: 12px 0;
+}
+.main_nav ul li {
+    padding: 0 20px;
+    height: 44px;
+    line-height: 44px;
+}
+.main_nav ul li a {
+    color: #fff;
+    font-size: 14px;
+}
+.main_nav ul li:hover a{
+    /* background: rgba(255,255,255,.5); */
+    color: #00a4ff;
+}
+
+.main .my_class {
+    margin-top: 50px;
+    background-color: #fff;
+}
+.main .my_class h3 {
+    width: 228px;
+    height: 48px;
+    background-color: #9bceea;
+    font-size: 18px;
+    color: #fff;
+    line-height: 48px;
+    text-align: center;
+}
+.main .my_class .class_info {
+    padding: 0 18px;
+}
+.my_class .class_info li {
+    padding: 20px 0 18px;
+    border-bottom: 1px solid #eaeaea;
+}
+.my_class .class_info li:nth-child(2) {
+    padding: 14px 0 12px;
+}
+
+.my_class .class_info h5 {
+    font-size: 16px;
+    color: #4e4e4e;
+    font-weight: normal;
+}
+.my_class .class_info .prom {
+    font-size: 14px;
+}
+.my_class .class_info .studying {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.my_class .class_info li a:hover h5,
+.my_class .class_info li a:hover .studying {
+    color: #00a4ff;
+}
+
+.my_class .all_class {
+    display: block;
+    width: 198px;
+    height: 38px;
+    border: 1px solid #00a4ff;
+    margin: 2px auto 12px;
+    line-height: 38px;
+    text-align: center;
+    color: #00a4ff;
+}
+.my_class .all_class:hover {
+    background-color: #00a4ff;
+    color: #fff;
+}
+/* main样式部分结束 */
+
+
+/* 精品推荐样式部分开始 */
+.recom {
+    background-color: #fff;
+    padding: 22px 0;
+    margin-top: 8px;
+}
+.recom .recom_nav {
+    padding-left: 34px;
+}
+.recom .recom_nav li {
+    float: left;
+    font-size: 16px;
+}
+.recom_nav li.line {
+    width: 1px;
+    height: 16px;
+    background-color: #bfbfbf;
+    margin: 4px 34px;
+}
+
+
+.recom>a {
+    font-size: 12px;
+    margin-right: 26px;
+}
+/* 精品推荐样式部分结束 */
+
+
+
+/* 精品推荐详情样式部分开始 */
+.recom_info  {
+    margin-top: 16px;
+}
+.recom_info .recom_info_title,
+.prom_door .prom_info_title {
+    padding: 20px 0;
+}
+.recom_info_title h3,
+.prom_info_title h3 {
+    font-size: 20px;
+    color: #494949;
+    font-weight: normal;
+}
+.recom_info_title a,
+.prom_info_title a {
+    font-size: 12px;
+    color: #a5a5a5;
+    margin-right: 26px;
+}
+
+
+.content_python .content_python_info {
+    margin-top: 18px;
+}
+.recom_info_content ul li,
+.content_python_info ul li {
+    float: left;
+    width: 228px;
+    background: #fff;
+    /* border:1px solid red; */
+    /* box-shadow: 2px 2px 5px 3px #ccc; */
+    transition: all 1s;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.recom_info_content ul li:nth-child(5n) {
+    margin-right: 0;
+}
+.recom_info_content ul li:hover,
+.content_python_info ul li:hover{
+    box-shadow: 2px 2px 5px 3px #ccc;
+}
+.recom_info_content li>a>img,
+.content_python_info li>a>img {
+    width: 100%;
+}
+
+.recom_info_content li .pro_info,
+.content_python_info li .pro_info {
+    padding: 20px 20px 26px 24px;
+}
+
+.recom_info_content li .pro_info a,
+.content_python_info li .pro_info a {
+    font-size: 14px;
+}
+.recom_info_content li .pro_info p,
+.content_python_info li .pro_info p {
+    margin-top: 12px;
+    font-size: 12px;
+    color: #999;
+}
+.recom_info_content li .pro_info .level,
+.content_python_info li .pro_info .level {
+    color: orange;
+}
+.recom_info_content li .pro_info em,
+.content_python_info li .pro_info em {
+    font-style: normal;
+    margin: 0 8px;
+}
+/* 精品推荐详情样式部分结束 */
+
+
+
+
+
+/* 编程入门样式部分开始 */
+.prom_door .prom_info_title .prom_level {
+    margin-left: 430px;
+}
+.prom_info_title .prom_level li {
+    float: left;
+}
+.prom_level ul li a {
+    font-size: 16px;
+}
+.content_python_info ul li:nth-child(4) {
+    margin-right: 0;
+}
+
+/* 编程入门样式部分结束*/
+
+
+
+
+
+/* 底部样式部分开始 */
+.footer {
+    background: #fff;
+    padding-top: 32px;
+    /* height: 385px; */
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
+.footer .footer_logo {
+    margin-bottom: 25px;
+}
+.footer .footer_logo a {
+    display: block;
+    width: 200px;
+    height: 41px;
+    background: url('../images/logo.png') no-repeat;
+    font-size: 0;
+}
+.footer .footer_copy p {
+    height: 18px;
+    font-size: 12px;
+    color: #666;
+}
+.footer .footer_copy .download {
+    display: block;
+    width: 118px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 16px;
+    color: #00a4ff;
+    border: 1px solid #00a4ff;
+    text-align: center;
+    margin-top: 10px;
+}
+.footer .footer_copy .download:hover {
+    background: #00a4ff;
+    color: #fff;
+}
+
+
+.footer .footer_nav dl {
+    float: left;
+    width: 225px;
+}
+.footer .footer_nav dl:last-child {
+    width: 96px;
+}
+.footer_nav dl dt {
+    height: 32px;
+    font-size: 16px;
+    color: #333;
+}
+.footer_nav dl dd {
+    height: 22px;
+}
+.footer_nav dl dd a {
+    font-size: 12px;
+    color: #333;
+}
+
+/* 底部样式部分结束 */

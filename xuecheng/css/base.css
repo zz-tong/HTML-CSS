@@ -1,0 +1,51 @@
+/* 页面初始化样式文件 */
+
+
+/* 内外边距初始化 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 初始化a标签 */
+a {
+    text-decoration: none;
+    color: #050505;
+}
+
+/* 初始化无序列表 */
+ul {
+    list-style: none;
+}
+
+/* 初始化input */
+input {
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+/* 设置一个公共使用样式 */
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+
+
+/* 清除浮动代码 */
+.clearfix::after {
+    content:  '.';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+}
