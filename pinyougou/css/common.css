@@ -1,0 +1,231 @@
+/* 公共页面的样式 */
+
+/* 文本主色调 */
+.col_rd {
+    color: #c81623 !important;
+}
+
+
+/* 页面顶部工具栏部分开始 */
+.top_bar {
+    height: 30px;
+    border-bottom: 1px solid #ddd;
+    background: #f1f1f1;
+    line-height: 30px;
+} 
+.top_bar .user_login {
+    margin: 0 14px;
+}
+
+.top_bar .bar_nav ul li {
+    float: left;
+}
+.top_bar .bar_nav li.line {
+    width: 1px;
+    height: 12px;
+    background: #666;
+    margin: 10px 16px;
+}
+
+.top_bar .bar_nav li .iconfont {
+    font-weight: 600;
+    margin-left: 10px;
+}
+/* 页面顶部工具栏部分结束 */
+
+
+/* 头部部分开始 */
+header {
+    height: 150px;
+    border-bottom: 2px solid #b1191a;
+}
+
+header .logo {
+    position: absolute;
+    left: 0;
+    top: 25px;
+}
+.logo h1 a {
+    display: block;
+    width: 175px;
+    height: 56px;
+    background: url('../images/logo.png') no-repeat;
+    font-size: 0;
+}
+
+
+header .search {
+    position: absolute;
+    top: 25px;
+    left: 348px;
+    width: 536px;
+    height: 32px;
+    border: 2px solid #b1191a;
+    border-right: 0;
+    font-size: 16px;
+}
+.search input[type="text"] {
+    float: left;
+    width: 454px;
+    height: 32px;
+    text-indent: 10px;
+    font-size: 14px;
+}
+.search input[type="button"] {
+    float: left;
+    width: 82px;
+    height: 32px;
+    background-color: #b1191a;
+    color: #fff;
+}
+
+
+header .cart {
+    position: absolute;
+    right: 62px;
+    top: 25px;
+    width: 138px;
+    height: 34px;
+    border: 1px solid #dfdfdf;
+    background: #f7f7f7;
+    text-align: center;
+    line-height: 34px;
+}
+.cart .car {
+    font-weight: 600;
+    font-size: 14px;
+}
+.cart a {
+    margin: 0 7px;
+}
+.cart .buy_num {
+    display: block;
+    position: absolute;
+    top: -6px;
+    right: 18px;
+    width: 14px;
+    height: 14px;
+    background: #e60012;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+    border-radius: 7px 7px 7px 0;
+}
+
+header .hot_product {
+    position: absolute;
+    top: 70px;
+    left: 360px;
+}
+.hot_product ul li {
+    float: left;
+    margin-right: 25px;
+}
+
+
+header .header_nav {
+    position: absolute;
+    top: 120px;
+    left: 250px;
+}
+.header_nav ul li {
+    float: left;
+    font-size: 16px;
+    margin-right: 52px;
+}
+.header_nav li a {
+    color: #333;
+}
+.header_nav li a:hover {
+    color: #c82613;
+}
+/* 头部部分结束 */
+
+
+
+/* 底部样式部分开始 */
+footer {
+    /* height: 500px; */
+    background: #f5f5f5;
+    margin-top: 100px;
+}
+footer .footer_service  {
+    /* padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 34px; */
+    padding: 30px 0 30px 34px;
+    border-bottom: 1px solid #ededed;
+}
+footer .footer_service li {
+    float: left;
+    width: 20%;
+}
+footer .footer_service li h3 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 6px;
+    background: url('../images/icons.png') no-repeat -253px -3px;
+    font-size: 0;
+}
+.footer_service li .text h4 {
+    padding-top: 7px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+footer .footer_service li:nth-child(2) h3 {
+    background-position: -255px -53px;
+}
+
+
+footer .footer_nav {
+    padding-top: 20px;
+    padding-left: 48px;
+    border-bottom: 1px solid #ededed;
+}
+footer .footer_nav dl {
+    float: left;
+    width: 16.666%;
+}
+footer .footer_nav dl:last-child {
+    width: 90px;
+    text-align: center;
+}
+.footer_nav dl dt {
+    height: 30px;
+    font-size: 16px;
+    color: #333;
+}
+.footer_nav dl dd {
+    height: 20px;
+}
+.footer_nav dl dd a {
+    color: #333;
+}
+.footer_nav dl dd a:hover {
+    color: #c82613;
+}
+
+footer .footer_copy {
+    padding-top: 20px;
+}
+footer .footer_copy ul li {
+    float: left;
+}
+.footer_copy ul  {
+    width: 980px;
+    margin: 0 auto 16px;
+}
+.footer_copy ul li.line {
+    width: 1px;
+    height: 12px;
+    background: #999;
+    margin: 0 16px;
+}
+footer .footer_copy p {
+    height: 20px;
+    text-align: center;
+}
+/* 底部样式部分结束 */

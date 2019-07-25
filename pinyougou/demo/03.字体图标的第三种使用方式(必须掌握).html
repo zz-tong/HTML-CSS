@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <!--字体图标本质是一种字体类型    在计算机中是不存在的。所以我们要使用的话，必须先自己定义这种字体类型 -->
+    <!-- 第一步：自定义字体图标的这样字体类型的字 -->
+    <style>
+        /* 自定义字体类型的 */
+        @font-face {
+            font-family: 'iconfont';      /*给自定义的字体类型取了一个名字叫iconfont*/
+            
+            /* 这些文件的路径 */
+            src: url('./font/iconfont.eot');
+            src: url('./font/iconfont.eot?#iefix') format('embedded-opentype'),
+                url('./font/iconfont.woff2') format('woff2'),
+                url('./font/iconfont.woff') format('woff'),
+                url('./font/iconfont.ttf') format('truetype'),
+                url('./font/iconfont.svg#iconfont') format('svg');
+        }
+
+
+
+        /* 第三步：将自定义的字体类型使用到我们字体图标上面 */
+        .iconfont {
+            font-family: 'iconfont';   /*将自定义的字体类型使用到字体图标上面*/
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <!-- 第二步：挑选对齐的字体图标的编码 -->
+    <i class="iconfont">&#xe696;</i>
+
+
+    <i class="iconfont">&#xe613;</i>
+
+    <i class="iconfont"></i>
+</body>
+
+</html>

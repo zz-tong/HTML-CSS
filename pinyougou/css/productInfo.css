@@ -1,0 +1,130 @@
+/* 商品详情页面商品分类部分 */
+header .main_nav {
+    position: absolute;
+    left: 0;
+    top: 105px;
+    /* width: 190px;
+    height: 450px;
+    background: pink; */
+    background: #c81623;
+    /* margin-top: -47px; */
+}
+.main_nav h3 {
+    width: 209px;
+    height: 47px;
+    background: #b1191a;
+    line-height: 47px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+header .main_nav ul {
+    display: none;
+}
+
+header .main_nav:hover ul {
+    display: block;
+}
+
+
+.main_nav ul li {
+    height: 31px;
+    padding: 0 12px;
+    line-height: 31px;
+    font-size: 14px;
+    color: #fff;
+}
+.main_nav li a {
+    color: #fff;
+}
+.main_nav ul li:hover {
+    background: #fff;
+    color: #c82613;
+}
+.main_nav ul li:hover a {
+    color: #c82613; 
+}
+.main_nav ul li a:hover {
+    color:#ccc;
+}
+
+
+
+/* main部分样式开始 */
+.main {
+    margin-top: 25px;
+}
+main .crumb-wrap ul li {
+    float: left;
+}
+main .crumb-wrap {
+    padding-bottom: 10px;
+}
+main .crumb-wrap li.iconfont {
+    margin: 0 20px;
+}
+main .crumb-wrap li:first-child {
+    color: #333;
+}
+main .product-intro .preview-wrap {
+    /* width: 400px;
+    height: 500px;
+    background: pink; */
+}
+main .product-intro .itemInfo-wrap {
+    width: 718px;
+    height: 500px;
+    background: blue;
+}
+
+.product-intro .preview-wrap .preview-img {
+    width: 398px;
+    height: 398px;
+    border: 1px solid red;
+    margin-bottom: 64px;
+}
+.preview-wrap .preview-img ul li {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.preview-wrap .preview-img img {
+    width: 100%;
+}
+
+.preview-wrap .preview-list ul li {
+    float: left;
+    width: 56px;
+    height: 56px;
+    /* border: 1px solid red; */
+    /* margin-right: 1px; */
+    /* border:1px solid rgba(0,0,0,0); */
+    border:1px solid transparent;
+}
+.preview-wrap .preview-list ul li:hover {
+    /* position: relative; */
+    /* border: 1px solid red; */
+    border-color: red;
+    /* outline: 1px solid red; */
+}
+
+
+.preview-wrap .preview-list li img {
+    width: 100%;
+}
+
+.preview-wrap .preview-list .arrow_l,
+.preview-wrap .preview-list .arrow_r {
+    width: 20px;
+    height: 56px;
+    line-height: 56px;
+}
+.preview-wrap .preview-list .arrow_l {
+    margin-right: 32px;
+}
+.preview-wrap .preview-list .arrow_r {
+    margin-left: 32px;
+}

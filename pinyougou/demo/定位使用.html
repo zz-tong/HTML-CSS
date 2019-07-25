@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            list-style: none;
+        }
+    
+
+        .box {
+            width: 300px;
+            height: 300px;
+            border: 1px solid red;
+            margin: 100px auto;
+            position: relative;
+        }
+
+        .box li {
+            width: 290px;
+            height: 290px;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .box li:nth-child(1) {
+            width: 298px;
+            background: blue;
+            z-index: 10;
+        }
+        .box li:nth-child(2) {
+            width: 295px;
+            background: pink;
+            z-index: 0;
+        }
+        .box li:nth-child(3) {
+            background: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+</html>
